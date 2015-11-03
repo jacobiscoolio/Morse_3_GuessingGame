@@ -33,7 +33,7 @@ public class Morse_3_GuessingGame {
         Scanner hh = new Scanner(System.in);
         int a = hh.nextInt();
         Random number = new Random();
-        int jj = number.nextInt(1);
+        int jj = number.nextInt(11);
         if(a == jj){
             System.out.println("You've won level 1");
             int itsacounter = 5;
@@ -62,7 +62,7 @@ public class Morse_3_GuessingGame {
         Scanner hh = new Scanner(System.in);
         int a = hh.nextInt();
         Random number = new Random();
-        int jj = number.nextInt(1);
+        int jj = number.nextInt(51);
         if(a == jj){
             System.out.println("You've won level 2");
             int r = 5;
@@ -90,7 +90,7 @@ public class Morse_3_GuessingGame {
         Scanner hh = new Scanner(System.in);
         int a = hh.nextInt();
         Random number = new Random();
-        int jj = number.nextInt(1);
+        int jj = number.nextInt(101);
         if(a == jj){
             System.out.println("You've won");
             int xxx = 5;
